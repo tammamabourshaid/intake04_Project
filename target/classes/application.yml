@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/organizations
+
+
+server:
+  error:
+    include-stacktrace: always

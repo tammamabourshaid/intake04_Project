@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="google-chrome" />
+    <title>Apptruistic</title>
+    <html class="not-ie" lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Apptruistic Web Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Favicon -->
+        <link href="/static/images/favicon.ico" rel="icon" type="image/png" th:href="@{/images/favicon.ico}">
+
+        <!-- Styles -->
+        <link href="/static/css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}" />
+        <link href="/static/css/pic.css" rel="stylesheet" th:href="@{/css/pic.css}" />
+
+
+        <!-- Font Avesome Styles -->
+        <link href="/static/css/font-awesome/font-awesome.css" rel="stylesheet"
+              th:href="@{/css/font-awesome/font-awesome.css}" />
+
+        <!-- FlexSlider Style -->
+        <link rel="stylesheet" href="/static/flexslider.css" th:href="@{/css/flexslider.css}" type="text/css" media="screen" />
+    </head>
+
+<body>
+<!-- Header -->
+<header id="header">
+    <div class="container">
+        <div class="row t-container">
+            <!-- Logo -->
+
+            <div class="span3">
+                <div class="logo">
+                    <a href="index.html" th:href="@{index}"><img src="/static/images/logoheader.png" alt="logoheader.png"
+                                                                 th:src="@{/images/logoheader.png}" /></a>
+                </div>
+            </div>
+
+            <a href="login.html" th:href="@{/login}" id="buttonheader1" type="button" class="btn btn-outline-primary" >Log in</a>
+
+            <a href="signup.html" th:href="@{/signup}" id="buttonheader2" type="button" class="btn btn-outline-danger" >Sign up</a>
+
+            <div class="span">
+            </div>
+
+            <div class="span9">
+                <div class="row space10"></div>
+                <nav id="nav" role="navigation">
+                    <a href="#nav" title="Show navigation">Show navigation</a>
+                    <a href="#" title="Hide navigation">Hide navigation</a>
+                    <ul class="clearfix">
+                        <li class="active">
+                            <a href="index.html" th:href="@{/}" title="">Home</a>
+                        </li>
+                        <li><a href="volunteer.html" th:href="@{volunteer}" title="">I'm a volunteer</a></li>
+                        <li>
+                            <a href="" title=""><span>I'm an organisation</span></a>
+                            <ul>
+                                <!-- Submenu -->
+                                <li><a href="profile.html" th:href="@{profile}" title="">Organisation Profile</a></li>
+                                <li><a href="addevent.html" th:href="@{addevent}" title="">Add Event</a></li>
+                            </ul>
+                            <!-- End Submenu -->
+                        </li>
+
+                        <li><a href="contact.html" th:href="@{contact}" title="">Contact Us</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row space40"></div>
+    </div>
+</header>
+<!-- Header End -->
+
+
+
+<form id="login" class="form-horizontal" th:action="@{/login}" method="post">
+
+    <div class="form-group">
+        <div id="alarm" class="col-sm-10">
+            <p th:if="${param.logout}">You have been logged out</p>
+            <p th:if="${param.error}">We could not find the user with those details. Please make sure you are signed up.</p>
+        </div>
+        <label id="emailtext" for="inputEmail3" class="col-sm-2 control-label">Email</label>
+        <div class="col-sm-10">
+            <input autofocus="autofocus" type="email" name="username" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label id="emailtext" for="inputPassword3" class="col-sm-2 control-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Password">
+           </div>    
+          </div>
+<div>
+    <br>
+<a id="newsignup" class="dropdown-item" href="signup.html" th:href="@{signup}">New around here? Sign up.</a>
+
+</div>        
+
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button id="chkbox-login" class="btn btn-primary">Log in</button>
+        </div>
+    </div>   
+
+</form>
+</body>
+
+
+<!-- JavaScripts -->
+<script type="text/javascript" src="/static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+
+</body>
+</html>
+  

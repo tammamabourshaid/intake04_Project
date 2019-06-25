@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="google-chrome">
+    <title>Apptruistic</title>
+    <html class="not-ie" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Apptruistic Web Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- Favicon -->
+        <link href="/static/images/favicon.ico" rel="icon" type="image/png">
+
+
+        <!-- Styles -->
+
+        <link href="/static/css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}">
+
+
+        <!-- Font Avesome Styles -->
+        <link href="/static/css/font-awesome/font-awesome.css" rel="stylesheet" th:href="@{/css/font-awesome/font-awesome.css}">
+
+
+        <!-- FlexSlider Style -->
+        <link rel="stylesheet" href="/static/css/flexslider.css" th:href="@{/css/flexslider.css}" type="text/css" media="screen">
+
+
+
+        <!-- Content -->
+    </head>
+<body>
+<!-- Header --> <header id="header">
+    <div class="container">
+        <div class="row t-container">
+          <!-- Logo -->
+
+          <div class="span3">
+            <div class="logo">
+              <a href="index.html" th:href="@{index}"><img src="/static/images/logoheader.png" alt="logoheader.png"
+                  th:src="@{/images/logoheader.png}" /></a>
+            </div>
+          </div>
+
+          <form  id="buttonheader3" th:method="post" th:action="@{/logout}">
+            <button   type="submit" class="btn btn-outline-primary" >Log out</button>
+          </form>
+          
+
+          <div class="span">
+           </div>
+
+          <div class="span9">
+            <div class="row space10"></div>
+            <nav id="nav" role="navigation">
+              <a href="#nav" title="Show navigation">Show navigation</a>
+              <a href="#" title="Hide navigation">Hide navigation</a>
+              <ul class="clearfix">
+                <li class="active">
+                  <a href="index.html" th:href="@{/}" title="">Home</a>
+                </li>
+                <li><a href="volunteer.html" th:href="@{volunteer}" title="">I'm a volunteer</a></li>
+                <li>
+                  <a href="" title=""><span>I'm an organisation</span></a>
+                  <ul>
+                    <!-- Submenu -->
+                    <li><a href="profile.html" th:href="@{profile}" title="">Organisation Profile</a></li>
+                    <li><a href="addevent.html" th:href="@{addevent}" title="">Add Event</a></li>
+                  </ul>
+                                  <!-- End Submenu -->
+                </li>
+
+                <li><a href="contact.html" th:href="@{contact}" title="">Contact Us</a></li>
+
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="row space40"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+  </head>
+  <body>
+
+    <div id="leftcorner" class="span8">
+        <div class="col-12 col-md-9 col-lg-6">
+
+            <div class="form">
+                <h3>Ceate a new Event</h3>
+                <form method="post" th:action="@{/addevent}" th:object="${eventDto}">
+                    <div class="form-group">
+                        <label>Name of the Event</label>
+                        <input th:field="*{what}" type="text" class="form-control">
+                        <td th:text="${exception}"/>
+                        <p id="alarm1" th:errors="*{what}" th:if="${#fields.hasErrors('what')}"></p>
+                    </div>
+                    <!---->
+                    <div class="form-group">
+                        <label for="exampleFormControlSelect1">Event topic</label>
+                        <select th:field="*{topic}" class="form-control" id="exampleFormControlSelect1">
+                            <option th:value="Environment" th:text="Environment">Environment</option>
+                            <option th:value="Community" th:text="Community">Community</option>
+                            <option th:value="Society" th:text="Society">Society</option>
+                            <option th:value="Education" th:text="Education">Education</option>
+                            <option th:value="Sports" th:text="Sports">Sports</option>
+                            <option th:value="Politics" th:text="Politics">Politics</option>
+                            <option th:value="HumanRights" th:text="HumanRights">Human Rights</option>
+                            <option th:value="GenderIssues" th:text="GenderIssues">Gender Issues</option>
+                            <option th:value="Technology" th:text="Technology">Technology</option>
+                            <option th:value="Media" th:text="Media">Media</option>
+                            <option th:value="Science" th:text="Science">Science</option>
+                            <option th:value="Health" th:text="Health">Health</option>
+                            <option th:value="ArtAndCulture" th:text="ArtAndCulture">Art & Culture</option>
+                            <option th:value="BusinessAndEntrepreneurship" th:text="BusinessAndEntrepreneurship">Business &
+                                Entrepreneurship
+                            </option>
+                            <option th:value="Other" th:text="Other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Date"> Date of Event</label>
+                        <input th:field="*{when}" type="date" class="form-control" id="Date" aria-describedby="Date"
+                               placeholder="Enter the Date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Description">Description </label>
+                        <textarea th:field="*{description}" type="text" class="form-control" id="DescriptionOfEvent"
+                                  placeholder="Description" rows="5"></textarea>
+                        <p id="alarm1" th:errors="*{description}" th:if="${#fields.hasErrors('description')}"></p>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="Number of Volunteers">Number of Volunteers Needed</label>
+                        <input th:field="*{capacity}" type="text" class="form-control" id="Number of Volunteers needed"
+                               placeholder="Number of Volunteers needed">
+                        <p id="alarm1" th:errors="*{capacity}" th:if="${#fields.hasErrors('capacity')}"></p>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="Place">Place</label>
+                        <input th:field="*{location}" type='text' class="form-control" id="Place"
+                               placeholder="Enter the Place">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Date"> Deadline of Event</label>
+                        <input th:field="*{deadline}" type="date" class="form-control" id="Deadline"
+                               aria-describedby="Deadline" placeholder="Enter Deadline">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Contact Person</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email"
+                               placeholder="Enter email">
+                        <input th:field="*{contact}" type="text" class="form-control" id="number" aria-describedby="number"
+                               placeholder="Enter Phone Number">
+                    </div>
+                    <div>
+                        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+          </div>
+</div>
+
+<!--<div class="span">-->
+
+    <!--<h3>Events</h3>-->
+
+
+    <!--<form th:each="event : ${events}">-->
+        <!--<div class="card" style="width: 18rem;">-->
+            <!--<div class="card-body">-->
+                <!--<h5 th:text="${event.what}" class="card-title">Event number #1 </h5>-->
+                <!--<p th:text="${event.description}" class="card-text">Description</p>-->
+                <!--<a href="#" class="btn btn-primary">Open Event</a>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</form>-->
+
+<!--</div>-->
+
+
+  <script type="text/javascript" src="/staticjs/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+  </body>
+</html>

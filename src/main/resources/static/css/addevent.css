@@ -1,0 +1,21 @@
+.list-group-item span {
+  margin-left: 50px;
+}
+
+div.form {
+  display: none;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+#eventbtn{
+flex-basis: 50px;
+  margin-left: 750px;
+
+}
+
+#logout{
+  margin-left: 750px;
+}

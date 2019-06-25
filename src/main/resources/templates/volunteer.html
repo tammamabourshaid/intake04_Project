@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="google-chrome" />
+  <title>Apptruistic</title>
+  <html class="not-ie" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Apptruistic Web Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link href="/static/images/favicon.ico" rel="icon" type="image/png" th:href="@{/images/favicon.ico}">
+
+    <!-- Styles -->
+    <link href="/static/css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}" />
+    <link href="/static/css/pic.css" rel="stylesheet" th:href="@{/css/pic.css}" />
+
+
+
+    <!-- Font Avesome Styles -->
+    <link href="/static/css/font-awesome/font-awesome.css" rel="stylesheet"
+      th:href="@{/css/font-awesome/font-awesome.css}" />
+
+    <!-- FlexSlider Style -->
+    <link rel="stylesheet" href="/static/flexslider.css" th:href="@{/css/flexslider.css}" type="text/css" media="screen" />
+  </head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+      <div class="container">
+        <div class="row t-container">
+          <!-- Logo -->
+          
+          <div class="span3">
+            <div class="logo">
+              <a href="index.html" th:href="@{index}"><img src="/static/images/logoheader.png" alt="logoheader.png"
+                  th:src="@{/images/logoheader.png}" /></a>
+            </div>
+          </div>
+          <div th:if="${principal==null}">
+            <a href="login.html" th:href="@{/login}" id="buttonheader1" type="button" class="btn btn-outline-primary">Log
+              in</a>
+
+            <a href="signup.html" th:href="@{/signup}" id="buttonheader2" type="button" class="btn btn-outline-danger">Sign
+              up</a>
+
+            <div class="span">
+            </div>
+          </div>
+          <div th:if="${principal!=null}">
+            <form   id="buttonheader3"  th:method="post" th:action="@{/logout}" >
+              <button type="submit" class="btn btn-outline-primary" >Log out</button>
+            </form>
+          </div>
+
+          <div class="span"> 
+           </div>
+  
+          <div class="span9">
+            <div class="row space10"></div>
+            <nav id="nav" role="navigation">
+              <a href="#nav" title="Show navigation">Show navigation</a>
+              <a href="#" title="Hide navigation">Hide navigation</a>
+              <ul class="clearfix">
+                <li class="active">
+                  <a href="index.html" th:href="@{/}" title="">Home</a>
+                </li>
+                <li><a href="volunteer.html" th:href="@{volunteer}" title="">I'm a volunteer</a></li>
+                <li>
+                  <a href="" title=""><span>I'm an organisation</span></a>
+                  <ul>
+                    <!-- Submenu -->
+                    <li><a href="profile.html" th:href="@{profile}" title="">Organisation Profile</a></li>
+                    <li><a href="addevent.html" th:href="@{addevent}" title="">Add Event</a></li>
+                  </ul>
+                                  <!-- End Submenu -->
+                </li>
+             
+                <li><a href="contact.html" th:href="@{contact}" title="">Contact Us</a></li>
+  
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="row space40"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+<body>
+    
+</body>
+</html>

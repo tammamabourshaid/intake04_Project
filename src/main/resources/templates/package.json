@@ -1,0 +1,30 @@
+{
+  "name": "Apptruistic Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "scripts": {
+    "task": "tsc --lib ES2018,dom taskmanager/app.ts && node taskmanager/app.js",
+    "chess": "tsc --lib ES2018,dom chessboard/app.ts && node chessboard/app.js"
+  },
+  "author": "<Tammam ABOU RSHAID>tammam.abourshaid@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^11.12.2",
+    "axios": "^0.18.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jest-runner-tslint": "^1.0.5",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "prettier": "^1.16.4"
+  }
+}

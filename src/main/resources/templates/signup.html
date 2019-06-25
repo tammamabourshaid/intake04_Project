@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="google-chrome">
+    <title>Apptruistic</title>
+    <html class="not-ie" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Apptruistic Web Site</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- Favicon -->
+        <link href="/static/images/favicon.ico" rel="icon" type="image/png" th:href="@{/img/favicon.ico}">
+
+
+        <!-- Styles -->
+
+        <link href="/static/css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}">
+
+
+
+ <!-- Font Avesome Styles -->
+ <link href="/static/css/font-awesome/font-awesome.css" rel="stylesheet" th:href="@{css/font-awesome/font-awesome.css}">
+
+
+ <!-- FlexSlider Style -->
+ <link rel="stylesheet" href="/static/css/flexslider.css" th:href="@{/css/flexslider.css}" type="text/css" media="screen">
+
+
+    </head>
+<body>
+
+      <!-- Header -->
+      <header id="header">
+          <div class="container">
+            <div class="row t-container">
+              <!-- Logo -->
+              
+              <div class="span3">
+                <div class="logo">
+                  <a href="index.html" th:href="@{index}"><img src="/static/images/logoheader.png" alt="logoheader.png"
+                      th:src="@{/images/logoheader.png}" /></a>
+                </div>
+              </div>
+
+                <a href="login.html" th:href="@{/login}" id="buttonheader1" type="button" class="btn btn-outline-primary" >Log in</a>
+
+                <a href="signup.html" th:href="@{/signup}" id="buttonheader2" type="button" class="btn btn-outline-danger" >Sign up</a>
+
+
+
+                <div class="span">
+               </div>
+      
+              <div class="span9">
+                <div class="row space10"></div>
+                <nav id="nav" role="navigation">
+                  <a href="#nav" title="Show navigation">Show navigation</a>
+                  <a href="#" title="Hide navigation">Hide navigation</a>
+                  <ul class="clearfix">
+                    <li class="active">
+                      <a href="index.html" th:href="@{/}" title="">Home</a>
+                    </li>
+                    <li><a href="volunteer.html" th:href="@{volunteer}" title="">I'm a volunteer</a></li>
+                    <li>
+                      <a href="" title=""><span>I'm an organisation</span></a>
+                      <ul>
+                        <!-- Submenu -->
+                        <li><a href="profile.html" th:href="@{profile}" title="">Organisation Profile</a></li>
+                        <li><a href="addevent.html" th:href="@{addevent}" title="">Add Event</a></li>
+                      </ul>
+                                      <!-- End Submenu -->
+                    </li>
+                 
+                    <li><a href="contact.html" th:href="@{contact.html}" title="">Contact Us</a></li>
+      
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="row space40"></div>
+          </div>
+        </header>
+        <!-- Header End -->
+
+<form id="signup-form" class="col-md-3" method="post" th:action="@{/signup}" th:object="${organization}">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input th:field="*{email}" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <td th:text="${exception}"/>
+        <p id="alarm1" th:errors="*{email}" th:if="${#fields.hasErrors('email')}"></p>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input th:field="*{password}" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <p id="alarm1" th:errors="*{password}" th:if="${#fields.hasErrors('password')}"></p>
+    </div>
+    <div class="form-group">
+        <label for="NameOfOrganisation">Name of Organisation</label>
+        <input th:field="*{organizationName}" type="text" class="form-control" id="NameOfOrganisation" placeholder="Title">
+        <p id="alarm1" th:errors="*{organizationName}" th:if="${#fields.hasErrors('organizationName')}"></p>
+    </div>
+    <div class="form-group">
+        <label for="WebSOfOrganisation">Link to organisation website</label>
+        <input th:field="*{websiteLink}" type="text"  class="form-control" id="WebSOfOrganisation"
+               placeholder="Web Site">
+        <p id="alarm1" th:errors="*{websiteLink}" th:if="${#fields.hasErrors('websiteLink')}"></p>
+    </div>
+    <div class="form-group">
+        <label for="ContactOfOrganisation">Contact of organisation</label>
+        <input th:field="*{contact}" type="text" class="form-control" id="ContactOfOrganisation" placeholder="please type the name of Contact"/>
+        <p id="alarm1" th:errors="*{contact}" th:if="${#fields.hasErrors('contact')}"></p>
+    </div>
+    <div class="form-group">
+        <label for="ShortDescriptionOfOrganisation">Short Description of Organisation</label>
+        <textarea th:field="*{description}" type="text" class="form-control" id="ShortDescriptionOfOrganisation" rows="5"></textarea>
+        <p id="alarm1" th:errors="*{description}" th:if="${#fields.hasErrors('description')}"></p>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script type="text/javascript" src="/static/js/bootstrap.min.js" th:src="@{js/bootstrap.min.js}"></script>
+
+      </body>
+    </html>
+  </head>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:text="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="google-chrome" />
+  <title>Apptruistic</title>
+  <html class="not-ie" lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Apptruistic Web Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link href="/static/images/favicon.ico" rel="icon" type="image/png" th:href="@{/images/favicon.ico}">
+
+    <!-- Styles -->
+    <link href="/static/css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}" />
+    <link href="/static/css/pic.css" rel="stylesheet" th:href="@{/css/pic.css}" />
+
+
+    <!-- Font Avesome Styles -->
+    <link href="/static/css/font-awesome/font-awesome.css" rel="stylesheet"
+      th:href="@{/css/font-awesome/font-awesome.css}" />
+
+    <!-- FlexSlider Style -->
+    <link rel="stylesheet" href="/static/flexslider.css" th:href="@{/css/flexslider.css}" type="text/css" media="screen" />
+  </head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <div class="row t-container">
+        <!-- Logo -->
+
+        <div class="span3">
+          <div class="logo">
+            <a href="index.html" th:href="@{index}"><img src="/static/images/logoheader.png" alt="logoheader.png"
+                th:src="@{/images/logoheader.png}" /></a>
+          </div>
+        </div>
+        <div th:if="${principal==null}">
+        <a href="login.html" th:href="@{/login}" id="buttonheader1" type="button" class="btn btn-outline-primary">Log
+          in</a>
+
+        <a href="signup.html" th:href="@{/signup}" id="buttonheader2" type="button" class="btn btn-outline-danger">Sign
+          up</a>
+
+        <div class="span">
+        </div>
+        </div>
+        <div th:if="${principal!=null}">
+          <form   id="buttonheader3"  th:method="post" th:action="@{/logout}" >
+            <button type="submit" class="btn btn-outline-primary" >Log out</button>
+          </form>
+        </div>
+
+        <div class="span9">
+          <div class="row space10"></div>
+          <nav id="nav" role="navigation">
+            <a href="#nav" title="Show navigation">Show navigation</a>
+            <a href="#" title="Hide navigation">Hide navigation</a>
+            <ul class="clearfix">
+              <li class="active">
+                <a href="index.html" th:href="@{/}" title="">Home</a>
+              </li>
+              <li><a href="volunteer.html" th:href="@{volunteer}" title="">I'm a volunteer</a></li>
+              <li>
+                <a href="" title=""><span>I'm an organisation</span></a>
+                <ul>
+                  <!-- Submenu -->
+                  <li><a href="profile.html" th:href="@{profile}" title="">Organisation Profile</a></li>
+                  <li><a href="addevent.html" th:href="@{addevent}" title="">Add Event</a></li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
+
+              <li><a href="contact.html" th:href="@{contact}" title="">Contact Us</a></li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="row space40"></div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Content -->
+  <div id="content">
+    <div class="container">
+      <div class="f-center">
+        <h2>Made for doers & dreamers.</h2>
+        <div class="head-info">
+          <h3>Choose from a variety of new volunteering opportunities and events every month in Vienna.
+            <br>Meet new people and gain experience while doing something good for our city and society.</h3>
+
+        </div>
+      </div>
+      <div class="f-hr"></div>
+      <div class="row space40"></div>
+      <div class="row">
+        <div class="span12">
+          <div class="row">
+            <!-- Service Container -->
+            <div class="span4">
+              <!-- Service Icon -->
+              <div class="ic-1"><i class="icon-lightbulb"></i></div>
+              <!-- Service Title -->
+              <div class="title-1">
+                <h4>All the volunteering opportunities <br>in Vienna in one place.</h4>
+              </div>
+              <!-- Service Content -->
+              <div class="text-1">
+
+              </div>
+            </div>
+            <!-- Service Container End -->
+            <div class="span4">
+              <div class="ic-1"><i class="icon-resize-small"></i></div>
+              <div class="title-1">
+                <h4>Connect with an organization that<br>
+                  is a match for your interests.</h4>
+              </div>
+              <div class="text-1">
+              </div>
+            </div>
+            <div class="span4">
+              <div class="ic-1"><i class="icon-eye-open"></i></div>
+              <div class="title-1">
+                <h4>Find the right event to volunteer for. <br>Start doing good!</h4>
+              </div>
+              <div class="text-1">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="span12">
+          <h2> <br> </h2>
+        </div>
+
+
+        <!-- Content End -->
+
+
+        <div class="span12">
+                    <div class="text-1">
+            <ul class="list-b">
+                <li th:each="event : ${events}">
+                  <i class="icon-ok">
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 th:text="${event.organizationName}" class="card-title"> </h5>
+                        <h5 th:text="${event.what}" class="card-title"> </h5>
+                        <h5 th:text="${event.when}" class="card-text"></h5>
+                        <h5 th:text="${event.deadline}" class="card-text"></h5>
+                        <h5 th:text="${event.description}" class="card-text"></h5>
+                        <h5 th:text="${event.location}" class="card-text"></h5>
+                        <h5 th:text="${event.topic}" class="card-text"></h5>
+                        <h5 th:text="${event.capacity}" class="card-text"></h5>
+                        <h5 th:text="${event.contact}" class="card-text"></h5>
+                      </div>
+                    </div>
+                  </i>
+                </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- JavaScripts -->
+        <script type="text/javascript" src="/static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+
+</body>
+
+</html>
+</head>
+
+</html>

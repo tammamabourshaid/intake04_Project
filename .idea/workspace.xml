@@ -1,0 +1,1111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/resources/templates/index.html" line="148" mnemonic="7" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e3c9025a-756b-467b-b4ad-bcbefc444d85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-reflections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hospital-reflections/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hospital-reflections/administration/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../hospital-reflections/administration/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the-morse-encoder-uI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../the-morse-encoder-uI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the-morse-encoder-uI/ui/src/main/java/at/nacs/morseencoderui/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../the-morse-encoder-uI/ui/src/main/java/at/nacs/morseencoderui/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../the-morse-encoder-uI/ui/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../the-morse-encoder-uI/ui/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../todo-with-ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../todo-with-ui/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/apptruistic$OrganizationManagerTest.ic" NAME="OrganizationManagerTest Coverage Results" MODIFIED="1559747525219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>at.nacs.apptruistic.logic.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2684">
+              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/signup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2024">
+              <caret line="92" column="36" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addevent.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3146">
+              <caret line="143" column="99" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/ContactController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="17" selection-start-line="12" selection-start-column="2" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/VolunteerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1078">
+              <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3278">
+              <caret line="149" column="16" selection-start-line="141" selection-start-column="9" selection-end-line="149" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1298">
+              <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logout</find>
+      <find>add</find>
+      <find>logo</find>
+      <find>logi</find>
+      <find>logou</find>
+      <find>new</find>
+      <find>addev</find>
+      <find>sign</find>
+      <find>vo</find>
+      <find>vol</find>
+      <find>log o</find>
+      <find>contac</find>
+      <find>contact</find>
+      <find>bootstrap.min.js</find>
+      <find>action</find>
+      <find>body</find>
+      <find>.html</find>
+      <find>flexslider.css</find>
+      <find>th:href=&quot;@{/css/flexslider.css}&quot;</find>
+      <find>bootstrap</find>
+      <find>log i</find>
+      <find>flexslider</find>
+      <find>sec</find>
+      <find>social-networks</find>
+      <find>social-networks-</find>
+      <find>html</find>
+      <find>post</find>
+      <find>events</find>
+      <find>Home</find>
+      <find>log</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/communication/SignupEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/security/UserDetailsServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/security/UserDetailsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login2.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login11.html" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/SignUpController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/user.html" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/security/UserPrincipal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/event.html" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/repository/OrganizationRepository.java" />
+        <option value="$PROJECT_DIR$/src/test/java/at/nacs/apptruistic/logic/LoginManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/at/nacs/apptruistic/logic/OrganizationManagerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/LocalDateConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/DtoEvent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/EventDto.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/LoginManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/ProfileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/tee/addevent.html" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/repository/EventRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/IndexManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/EventController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/RefererRedirectionAuthenticationSuccessHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/ProfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/css/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/OrganizationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/Organization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/EventManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/ThymeleafConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/ContactController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/SecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/WebMvcConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/signup.html" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/volunteer.html" />
+        <option value="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/VolunteerController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addevent.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="53" />
+    <option name="y" value="27" />
+    <option name="width" value="934" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apptruistic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apptruistic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-apptruistic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561389640392" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="at.nacs.apptruistic.logic" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="at.nacs.apptruistic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration" />
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/java/at/nacs/apptruistic" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="at.nacs.apptruistic.view.controller" />
+      <recent name="at.nacs.apptruistic.repository" />
+      <recent name="at.nacs.apptruistic.configuration" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="at.nacs.apptruistic.validation" />
+      <recent name="at.nacs.apptruistic.logic" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApptruisticApplication">
+    <configuration name="LoginManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apptruistic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.apptruistic.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.apptruistic.logic" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.apptruistic.logic.LoginManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginManagerTest.getCurrentUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apptruistic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.apptruistic.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.apptruistic.logic" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.apptruistic.logic.LoginManagerTest" />
+      <option name="METHOD_NAME" value="getCurrentUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrganizationManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apptruistic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.apptruistic.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.apptruistic.logic" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.apptruistic.logic.OrganizationManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrganizationManagerTest.store" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apptruistic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="at.nacs.apptruistic.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="at.nacs.apptruistic.logic" />
+      <option name="MAIN_CLASS_NAME" value="at.nacs.apptruistic.logic.OrganizationManagerTest" />
+      <option name="METHOD_NAME" value="store" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApptruisticApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="apptruistic" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="at.nacs.apptruistic.ApptruisticApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.OrganizationManagerTest" />
+        <item itemvalue="JUnit.LoginManagerTest" />
+        <item itemvalue="JUnit.LoginManagerTest.getCurrentUser" />
+        <item itemvalue="JUnit.OrganizationManagerTest.store" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task id="Default" summary="Default task">
+      <changelist id="e3c9025a-756b-467b-b4ad-bcbefc444d85" name="Default Changelist" comment="" />
+      <created>1559723446771</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561365639857</updated>
+      <workItem from="1559723450193" duration="13883000" />
+      <workItem from="1559807021531" duration="12659000" />
+      <workItem from="1559827384162" duration="5275000" />
+      <workItem from="1559838176145" duration="1276000" />
+      <workItem from="1559843508299" duration="2432000" />
+      <workItem from="1559847399610" duration="2867000" />
+      <workItem from="1559850471986" duration="13207000" />
+      <workItem from="1560079783540" duration="350000" />
+      <workItem from="1560107586720" duration="2335000" />
+      <workItem from="1560172639767" duration="105000" />
+      <workItem from="1560178512558" duration="4645000" />
+      <workItem from="1560204365607" duration="3362000" />
+      <workItem from="1560254430364" duration="128000" />
+      <workItem from="1560254723225" duration="32000" />
+      <workItem from="1560255401646" duration="529000" />
+      <workItem from="1560256179343" duration="903000" />
+      <workItem from="1560257597974" duration="4520000" />
+      <workItem from="1560322783822" duration="5402000" />
+      <workItem from="1560329603865" duration="689000" />
+      <workItem from="1560330593821" duration="14317000" />
+      <workItem from="1560375356732" duration="8892000" />
+      <workItem from="1560429136155" duration="9649000" />
+      <workItem from="1560498441968" duration="19856000" />
+      <workItem from="1560675026505" duration="1178000" />
+      <workItem from="1560755177728" duration="5215000" />
+      <workItem from="1560845504595" duration="12110000" />
+      <workItem from="1560927603682" duration="738000" />
+      <workItem from="1560928426510" duration="14638000" />
+      <workItem from="1561103149016" duration="16637000" />
+      <workItem from="1561209088956" duration="554000" />
+      <workItem from="1561362287185" duration="3051000" />
+    </task>
+    <task active="true" id="LOCAL-00001" summary="flexslider">
+      <created>1561365637331</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561365639897</updated>
+      <workItem from="1561365640387" duration="10088000" />
+      <workItem from="1561445462226" duration="3373000" />
+      <workItem from="1561452586927" duration="438000" />
+      <workItem from="1561457076463" duration="193000" />
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 15h 40m 08s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 15h 45m 38s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 15h 46m 41s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 15h 49m 57s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 15h 50m 34s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginManagerTest_getCurrentUser - 2019.06.13 at 15h 54m 24s.xml">
+      <configuration name="LoginManagerTest.getCurrentUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginManagerTest - 2019.06.13 at 15h 54m 46s.xml">
+      <configuration name="LoginManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 15h 55m 14s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 16h 02m 47s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrganizationManagerTest - 2019.06.13 at 16h 02m 57s.xml">
+      <configuration name="OrganizationManagerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="195526000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1850" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22505543" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.3297062" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72732127" weight="0.36452666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053364" side_tool="true" weight="0.3297062" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49786553" weight="0.43307942" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16542156" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.7283885" visible="true" weight="0.2937976" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2716115" side_tool="true" weight="0.47986943" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49839914" weight="0.43307942" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3293348" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3293348" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.5.RELEASE/spring-boot-autoconfigure-2.1.5.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="254" column="40" selection-start-line="254" selection-start-column="40" selection-end-line="254" selection-end-column="40" />
+          <folding>
+            <element signature="e#12538#12539#0" expanded="true" />
+            <element signature="e#12595#12596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/events.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile1.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.7.RELEASE/spring-test-5.1.7.RELEASE.jar!/org/springframework/test/context/cache/DefaultCacheAwareContextLoaderDelegate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/ApptruisticApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#329#330#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/nacs/apptruistic/logic/OrganizationManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/nacs/apptruistic/logic/LoginManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/LocalDateConverter.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/repository/OrganizationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/EventDto.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/LoginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dfds/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tee/addevent.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tee/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tee/login.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tee/profile.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/ProfileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/security/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/repository/EventRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/IndexManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/RefererRedirectionAuthenticationSuccessHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48698">
+          <caret line="1873" selection-start-line="1873" selection-end-line="1873" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/SignUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/OrganizationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/Organization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/logic/EventManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/security/UserPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="41" column="32" selection-start-line="36" selection-start-column="4" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/HomeController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/SecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/ThymeleafConfig.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/configuration/WebMvcConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/volunteer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1534">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2684">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2024">
+          <caret line="92" column="36" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addevent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3146">
+          <caret line="143" column="99" selection-start-line="143" selection-start-column="99" selection-end-line="143" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/domain/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/ContactController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="17" selection-start-line="12" selection-start-column="2" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/nacs/apptruistic/view/controller/VolunteerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3278">
+          <caret line="149" column="16" selection-start-line="141" selection-start-column="9" selection-end-line="149" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="61" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>apptruistic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-jupiter-api-5.3.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3815704" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

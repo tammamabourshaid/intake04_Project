@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="google-chrome">
+    <title>Apptruistic</title>
+<html class="not-ie" lang="en"> 
+<head>
+  <meta charset="utf-8">
+  <title>Apptruistic Web Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- Favicon -->
+  <link href="/static/images/favicon.ico" rel="icon" type="image/png" th:src="@{images/favicon.ico}">
+
+
+     <!-- Styles -->
+ 
+ <link href="/static/css/styles.css" rel="stylesheet" th:href="@{/css/styles.css}">
+
+
+ <!-- Font Avesome Styles -->
+ <link href="/static/css/font-awesome/font-awesome.css"  th:href="@{/css/font-awesome/font-awesome.css}" rel="stylesheet">
+
+
+ <!-- FlexSlider Style -->
+ <link rel="stylesheet" href="/static/css/flexslider.css" th:href="@{/css/flexslider.css}" type="text/css" media="screen">
+
+	
+
+</head>       
+<body>
+
+  <!-- Content -->
+</head>
+<body>
+            <!-- Header -->
+            <header id="header">
+                <div class="container">
+                  <div class="row t-container">
+                    <!-- Logo -->
+                    
+                    <div class="span3">
+                      <div class="logo">
+                        <a href="index.html" th:href="@{index}"><img src="/static/images/logoheader.png" alt="logoheader.png"
+                            th:src="@{/images/logoheader.png}" /></a>
+                      </div>
+                    </div>
+
+
+                      <div th:if="${principal==null}">
+                          <a href="login.html" th:href="@{/login}" id="buttonheader1" type="button" class="btn btn-outline-primary">Log
+                              in</a>
+
+                          <a href="signup.html" th:href="@{/signup}" id="buttonheader2" type="button" class="btn btn-outline-danger">Sign
+                              up</a>
+
+                          <div class="span">
+                          </div>
+                      </div>
+                      <div th:if="${principal!=null}">
+                          <form   id="buttonheader3"  th:method="post" th:action="@{/logout}" >
+                              <button type="submit" class="btn btn-outline-primary" >Log out</button>
+                          </form>
+                      </div>
+            
+                    <div class="span9">
+                      <div class="row space10"></div>
+                      <nav id="nav" role="navigation">
+                        <a href="#nav" title="Show navigation">Show navigation</a>
+                        <a href="#" title="Hide navigation">Hide navigation</a>
+                        <ul class="clearfix">
+                          <li class="active">
+                            <a href="index.html" th:href="@{/}" title="">Home</a>
+                          </li>
+                          <li><a href="volunteer.html" th:href="@{volunteer}" title="">I'm a volunteer</a></li>
+                          <li>
+                            <a href="" title=""><span>I'm an organisation</span></a>
+                            <ul>
+                              <!-- Submenu -->
+                              <li><a href="profile.html" th:href="@{profile}" title="">Organisation Profile</a></li>
+                              <li><a href="addevent.html" th:href="@{addevent}" title="">Add Event</a></li>
+                            </ul>
+                                            <!-- End Submenu -->
+                          </li>
+                       
+                          <li><a href="contact.html" th:href="@{contact}" title="">Contact Us</a></li>
+            
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                  <div class="row space40"></div>
+                </div>
+              </header>
+              <!-- Header End -->
+         
+    <div class="container">
+      <div class="row">
+        <div class="span5">
+        <h3>Contact Form</h3>
+        <div>         
+          <form class="form-main" name="ajax-form" id="ajax-form" action="#" method="post">
+            <div id="ajaxsuccess">E-mail was successfully sent.</div> 
+            <div class="error" id="err-name">Please enter name</div>
+            <input name="name" id="name" type="text" value="Name" onfocus="if(this.value == 'Name') this.value='';" onblur="if(this.value == '') this.value='Name';">
+            
+            <div class="error" id="err-email">Please enter e-mail</div>
+		        <div class="error" id="err-emailvld">E-mail is not a valid format</div>
+            <input  name="email" id="email" type="text" value="E-mail" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';">
+
+            <div class="error" id="err-message">Please enter message</div>
+            <textarea  name="message" id="message" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea><br>
+            <div>
+            	<div class="error" id="err-form">There was a problem validating the form please check!</div>
+            	<div class="error" id="err-timedout">The connection to the server timed out!</div>
+            	<div class="error" id="err-state"></div>
+            </div>
+            <button id="send" class="btn f-right">Send Message <i class="icon-ok"></i></button>
+          </form>
+        </div>
+        </div>
+        <div class="span3 offset3">
+            <h3>Address</h3>
+           District<br />
+            Vienna<br />
+            Austrai<br />
+            <br />
+            <i class="icon-phone"></i>+43 000 000 000<br />
+            <i class="icon-envelope"></i
+            ><a href="mailto:nacs@newaustriancodingschool.at"
+              >nacs@newaustriancodingschool.at</a
+            ><br />
+            <i class="icon-home"></i
+            ><a href="https://www.newaustriancodingschool.at"
+              >www.newaustriancodingschool.at</a
+            >
+
+          <!---->
+          <!--<div class="row space40"></div>-->
+
+                <!--<a href="www.facebook.com" class="social-network sn2 facebook" ></a>-->
+                <!--<a href="www.pinterest.com" class="social-network sn2 pinterest"></a>-->
+                <!--<a href="www.linkedin.com" class="social-network sn2 linkedin"></a>-->
+                <!--<a href="www.xing.com" class="social-network sn2 xing"></a>-->
+              <!--</div>-->
+      <!--</div>-->
+      
+      <div class="row space50"></div>
+    
+
+    </div>
+          
+    </div>
+    
+</body>
+
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="/static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+</body>
+</html>

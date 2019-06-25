@@ -1,0 +1,21 @@
+dataset:
+  organizations:
+  - email: tamara@hotmail.com
+    password: 12345678
+    organizationName: fighting
+    description: charity
+    websiteLink: www.tamara.com
+    contact: 0968888888
+  - email: leen@hotmail.com
+    password: 11111111111
+    organizationName: stealing
+    description: nothing
+    websiteLink: www.leen.com
+    contact: 0998956444
+  organization:
+      email: tamara@hotmail.com
+      password: 12345678
+      organizationName: fighting
+      description: charity
+      websiteLink: www.tamara.com
+      contact: 0968888888

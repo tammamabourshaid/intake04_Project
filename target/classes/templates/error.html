@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+<body>
+<h1>Error</h1>
+<p>
+    There was an unexpected error (type=<span th:text="${error}">Bad</span>, status=<span
+        th:text="${status}">500</span>).
+</p>
+<div>
+    Please contact the operator with the above information.
+</div>
+</body>
+</html>
