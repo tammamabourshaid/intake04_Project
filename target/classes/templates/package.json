@@ -18,7 +18,7 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "jest-runner-tslint": "^1.0.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
