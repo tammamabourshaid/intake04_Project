@@ -16,7 +16,7 @@
     "axios": "^0.18.0",
     "chalk": "^2.4.2",
     "cors": "^2.8.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "jest-runner-tslint": "^1.0.5",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
